@@ -4,6 +4,7 @@ import numpy as np
 import urllib.parse
 import urllib.request
 import json
+import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
