@@ -14,7 +14,7 @@ st.set_page_config(layout = 'wide')
 @st.cache_data
 def fontRegistered():
     font_files = 'H2GTRM.TTF'
-    fm.fontManager.addfont(font_file)
+    fm.fontManager.addfont(font_files)
     fm._load_fontmanager(try_read_cache=False)
 
 
