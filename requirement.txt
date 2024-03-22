@@ -3,5 +3,5 @@ pandas
 numpy
 urllib.parse
 urllib.request
-matplotlib
+matplotlib == 3.8.3
 seaborn
