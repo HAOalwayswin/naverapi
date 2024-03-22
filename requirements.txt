@@ -1,7 +1,6 @@
 streamlit
 pandas
 numpy
-urllib.parse
-urllib.request
+urllib
 matplotlib
 seaborn
