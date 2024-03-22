@@ -3,5 +3,5 @@ pandas
 numpy
 urllib.parse
 urllib.request
-matplotlib.pyplot
+matplotlib
 seaborn
