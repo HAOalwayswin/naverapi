@@ -121,7 +121,7 @@ def main():
                 st.write("### 지점별 배정된 사업자 수", b_data['배정결과(가까운 기준)'].value_counts())
             # 지점별 배정된 사업자 수 바 차트 생성
 
-            plt.rc('font', family='Malgun Gothic')
+            plt.rc('font', family='H2GTRM')
             fig, ax = plt.subplots()
             b_data['배정결과(가까운 기준)'].value_counts().plot(kind='bar', ax=ax)
             with col2 :
