@@ -13,11 +13,8 @@ st.set_page_config(layout = 'wide')
 
 @st.cache_data
 def fontRegistered():
-    font_dirs = os.getcwd()
-    font_files = fm.findSystemFonts(fontpaths=font_dirs)
-
-    for font_file in font_files:
-        fm.fontManager.addfont(font_file)
+    font_files = 'H2GTRM.TTF'
+    fm.fontManager.addfont(font_file)
     fm._load_fontmanager(try_read_cache=False)
 
 
